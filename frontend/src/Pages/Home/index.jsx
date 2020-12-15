@@ -1,4 +1,5 @@
 import React from  'react';
+import Anima from '../../componets/Anima/';
 
 import './styles.css';
 
@@ -8,6 +9,8 @@ import separator from '../../assets/images/separator.svg';
 const Home = () => {
     return(
    <>
+
+   <Anima />
      <div className="section-1">
       <div className="container">
          <header className="header">
